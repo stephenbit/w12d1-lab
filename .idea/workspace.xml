@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd57b483-947a-4f43-914f-245f73a0206d" name="Default Changelist" comment="" />
+    <list default="true" id="dd57b483-947a-4f43-914f-245f73a0206d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/staff/management/Management.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,7 +38,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -42,6 +58,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="340" y="85" width="1127" height="831" key="#Project_Structure" timestamp="1581948535640">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="340" y="85" width="1127" height="831" key="#Project_Structure/0.23.1680.956@0.23.1680.956" timestamp="1581948535640" />
+    <state x="609" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1581949626924">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="609" y="138" key="#com.intellij.ide.util.MemberChooser/0.23.1680.956@0.23.1680.956" timestamp="1581949626924" />
     <state x="328" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1581948367233">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
