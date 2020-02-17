@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd57b483-947a-4f43-914f-245f73a0206d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/management/Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/management/Management.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ManagementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ManagementTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DatabaseAdminTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance Lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
+      <option name="METHOD_NAME" value="getName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inheritance Lab" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,6 +96,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Inheritance Lab" />
+        <item itemvalue="JUnit.DatabaseAdminTest.getName" />
         <item itemvalue="JUnit.ManagementTest" />
         <item itemvalue="JUnit.ManagementTest.testRaiseSalary" />
         <item itemvalue="JUnit.ManagementTest.testPayBonus" />
@@ -106,30 +117,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="340" y="85" width="1127" height="831" key="#Project_Structure" timestamp="1581948535640">
+    <state x="340" y="85" width="1127" height="831" key="#Project_Structure" timestamp="1581955242793">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state x="340" y="85" width="1127" height="831" key="#Project_Structure/0.23.1680.956@0.23.1680.956" timestamp="1581948535640" />
+    <state x="340" y="85" width="1127" height="831" key="#Project_Structure/0.23.1680.956@0.23.1680.956" timestamp="1581955242793" />
     <state x="609" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1581949626924">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="609" y="138" key="#com.intellij.ide.util.MemberChooser/0.23.1680.956@0.23.1680.956" timestamp="1581949626924" />
-    <state width="1612" height="240" key="GridCell.Tab.0.bottom" timestamp="1581953024480">
+    <state width="1612" height="240" key="GridCell.Tab.0.bottom" timestamp="1581955589944">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="240" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1581953024480" />
-    <state width="1612" height="240" key="GridCell.Tab.0.center" timestamp="1581953024479">
+    <state width="1612" height="240" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1581955589944" />
+    <state width="1612" height="240" key="GridCell.Tab.0.center" timestamp="1581955589944">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="240" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1581953024479" />
-    <state width="1612" height="240" key="GridCell.Tab.0.left" timestamp="1581953024478">
+    <state width="1612" height="240" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1581955589944" />
+    <state width="1612" height="240" key="GridCell.Tab.0.left" timestamp="1581955589943">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="240" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1581953024478" />
-    <state width="1612" height="240" key="GridCell.Tab.0.right" timestamp="1581953024479">
+    <state width="1612" height="240" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1581955589943" />
+    <state width="1612" height="240" key="GridCell.Tab.0.right" timestamp="1581955589944">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="240" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1581953024479" />
+    <state width="1612" height="240" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1581955589944" />
     <state width="1612" height="299" key="GridCell.Tab.1.bottom" timestamp="1581952811975">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
