@@ -4,9 +4,9 @@ public abstract class Employee {
 
     public String name;
     public String nINumber;
-    public int salary;
+    public double salary;
 
-    public Employee(String name, String nINumber, int salary) {
+    public Employee(String name, String nINumber, double salary) {
         this.name = name;
         this.nINumber = nINumber;
         this.salary = salary;
@@ -20,14 +20,15 @@ public abstract class Employee {
         return nINumber;
     }
 
-    public int getSalary() {
+    public double getSalary() {
         return salary;
+    }
+
+    public double payBonus(double salary) {
+        return salary *= 1.01;
     }
 
     public abstract void raiseSalary(double salary);
 
-    public int payBonus(int salary) {
-        return salary *= 1.01;
-    }
 
 }

@@ -6,7 +6,7 @@ public class Management extends Employee {
 
     private String deptName;
 
-    public Management(String name, String nINumber, int salary, String deptName) {
+    public Management(String name, String nINumber, double salary, String deptName) {
         super(name, nINumber, salary);
         this.deptName = deptName;
     }
@@ -14,9 +14,9 @@ public class Management extends Employee {
     public String getDeptName() {
         return deptName;
     }
-    
-    public double raiseSalary(Double salary) {
-      return super.raiseSalary(salary);
+
+    public void raiseSalary(double increase) {
+        this.salary += increase ;
     }
 
 

@@ -7,17 +7,15 @@ import static org.junit.Assert.assertEquals;
 public class ManagementTest {
 
     Management manager;
-    Double raise;
 
     @Before
     public void before() {
         manager = new Management(
                 "George",
                 "HART97",
-                100000000,
+                100000000.00,
                 "Cheese"
         );
-        raise = new Double(1);
     }
 
     @Test
@@ -32,7 +30,7 @@ public class ManagementTest {
 
     @Test
     public void testGetSalary() {
-        assertEquals(100000000, manager.getSalary());
+        assertEquals(100000000.00, manager.getSalary(), 0.01);
     }
 
     @Test
@@ -42,15 +40,13 @@ public class ManagementTest {
 
     @Test
         public void testPayBonus() {
-        assertEquals(
-                101000000,
-                manager.payBonus(manager.getSalary())
-        );
+        assertEquals(101000000.00, manager.payBonus(manager.getSalary()), 0.01);
     }
 
     @Test
     public void testRaiseSalary() {
-        assertEquals(100000001.00, manager.raiseSalary(raise));
+        manager.raiseSalary(1.00);
+        assertEquals(100000001.00, manager.getSalary(), 0.01);
     }
 
 }
