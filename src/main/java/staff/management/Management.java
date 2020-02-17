@@ -14,6 +14,10 @@ public class Management extends Employee {
     public String getDeptName() {
         return deptName;
     }
+    
+    public double raiseSalary(Double salary) {
+      return super.raiseSalary(salary);
+    }
 
 
 }

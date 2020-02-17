@@ -24,7 +24,7 @@ public abstract class Employee {
         return salary;
     }
 
-    public abstract void raiseSalary(double Double);
+    public abstract void raiseSalary(double salary);
 
     public int payBonus(int salary) {
         return salary *= 1.01;
